@@ -1,0 +1,19 @@
+idea: tạo ra một AI có thể thực hiện các tác vụ cơ bản như:
+* tìm kiếm
+* mở web cơ bản (youtube, facebook, ...)
+* xem thời tiêt
+* tính toán
+* thời gian
+* bật tắt thiết bị
+* lấy thông tin đo đạt
+* tự động hóa theo lập trình sẵn
+* sử dụng thiết bị di động để điều khiển 
+* thông báo cảnh báo
+
+
+các mạch có: uno, nano, esp8266 x 2
+
+
+chia thành 2 nhóm làm việc và một máy chủ, mỗi nhóm gồm một arduino và một esp kết hợp để thực hiện
+liên lạc và điều khiển và tiếp nhập từ các thiết bị mà nó quản lý. máy chủ sẽ chứa chương trình python 
+thực hiện các hoạt động chính trợ lý, ra lệnh các cleint và tiếp nhận thông tin từ các cleint
