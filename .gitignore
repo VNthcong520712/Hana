@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Distributions
+dist/
+build/
+*.egg
+*.whl
+
+# Virtual environment
+.venv/
+venv/
+env/
+/bin/
+/include/
+/lib/
+/lib64/
+/Scripts/
+/share/
+
+# Editors
+.vscode/        # Visual Studio Code
+.idea/          # IntelliJ IDEA / PyCharm
+*.sublime-project
+*.sublime-workspace
+*.swp           # Vim swap files
+
+# OS generated files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+ehthumbs.db     # Windows
+Desktop.ini     # Windows
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+!db.sqlite3      # Keep db.sqlite3 if it's the main database for development
+
+# MyPy / Static analysis
+.mypy_cache/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.flaskenv
+!settings_local.py # Example: if you have a settings_local.py for local dev
+
+# Testing and Coverage
+.coverage
+.coverage.*
+htmlcov/
+.nox/
+
+# PyInstaller / Nuitka
+# These are applications that pack your code into executables
+*.spec
+build/
+dist/
+
+# Docker
+.dockerignore
+!Dockerfile # keep Dockerfile
+!docker-compose.yml # keep docker-compose.yml
+
+# Compiled files for Cython, etc.
+*.so
+
+# Jupyter Lab extensions
+.jupyter/
