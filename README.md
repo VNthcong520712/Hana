@@ -62,16 +62,7 @@ Dự án này yêu cầu một số thư viện Python cụ thể.
     ```
 
 3.  **Cài đặt các thư viện phụ thuộc:**
-    Dự án này cần các thư viện sau. Hãy tạo một file `requirements.txt` với nội dung sau (nếu chưa có):
-    ```
-    playsound==1.2.2
-    # Thêm các thư viện khác mà bạn sử dụng trong project (ví dụ: SpeechRecognition, pyttsx3, requests, etc.)
-    # Ví dụ:
-    # SpeechRecognition
-    # pyttsx3
-    # requests
-    ```
-    Sau đó, chạy lệnh:
+    Dự án này cần các thư viện sau. Hãy chạy lệnh:
     ```bash
     pip install -r requirements.txt
     ```
