@@ -1,8 +1,9 @@
 import cv2
 import numpy as np
 from ffpyplayer.player import MediaPlayer
+import os 
 
-file_name = "D:\Documents\Hana assistant\AI(v2).mp4"
+file_name = os.path.dirname(os.path.abspath(__file__))+"\AI(v2).mp4"
 window_name = "window"
 interframe_wait_ms = 30
 
